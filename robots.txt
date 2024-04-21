@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://github.com/CodingWithTim/al-folio/sitemap.xml
+Sitemap: https://CodingWithTim.github.io/sitemap.xml
