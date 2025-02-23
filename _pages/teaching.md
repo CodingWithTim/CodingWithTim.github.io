@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: I was a TA for...
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
 ### EECS 127/227A: Convex Optimization for Machine Learning
