@@ -1,13 +1,15 @@
 ---
 layout: page
 permalink: /blogs/
-title: blogs I wrote...
+title: Blogs I wrote...
 # description: 
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 1. [A Hitchhiker’s Guide to Undergrad Research](#a-hitchhikers-guide-to-undergrad-research)
+
+---
 
 # A Hitchhiker’s Guide to Undergrad Research
 
@@ -23,19 +25,19 @@ I am a Berkeley EECS undergrad, Class of 2025. My research focuses on the inters
 
 During my undergraduate years, I have published eight papers, including first-author papers and conference papers at ICML, ICLR, and EMNLP, totaling over 700 citations on Google Scholar. I also published a paper with Google AI and served as an ICLR conference reviewer.
 
-I was admitted to Berkeley, MIT, Princeton, CMU, and UW for PhD to continue pursuing research in model training and evaluations.
+I was recently admitted to Berkeley, MIT, Princeton, CMU, and UW for PhD to continue pursuing research in model training and evaluations.
 
 I want to take this moment to express my deepest gratitude to my advisors, PostDocs, PhD mentors, friends, and family. Without their support, I wouldn’t have been able to accomplish any of this. In hindsight, I was incredibly lucky to meet the right people at the right time to work on the right things. So, I want to share the knowledge and lessons I’ve learned throughout my research journey, as well as insights from those around me. See a [list](#wonderful-people) of these wonderful people. 
 
 ## Table of Contents
 1. [Should You Consider Research?](#should-you-consider-research)
-2. [What Kind of Classes to Take](#what-kind-of-classes-should-you-take)
-3. [How to Get Into Research](#how-to-get-into-research)
-4. [Advice for Students in Research](#advice-for-students-in-research)
+2. [What Kind of Classes to Take?](#what-kind-of-classes-should-you-take)
+3. [How to Get Into Research?](#how-to-get-into-research)
+4. [Advices to Students in Research](#advices-to-students-in-research)
 5. [Master’s / PhD Applications](#master--phd-applications)
-6. [Stresses In Research](#stresses-in-research)
+6. [Stress from Research](#stress-from-research)
 
-# Should You Consider Research?
+## Should You Consider Research?
 If you’re interested in graduate school (MS or PhD), the answer is yes.
 
 Simply put, grad school applications require letters of recommendation (typically three), and they are everything. A strong letter comes from a research professor who can speak to your research ability. Not your software engineering manager. Not your grandma. Period. GPA, technical experience, and extracurriculars are secondary to strong recommendations. More on this later.
@@ -54,26 +56,26 @@ If none of this applies to you, save yourself from years of misery and pain as a
 
 General advice: Try everything at least once during undergrad. You’ll never know if you like SWE unless you do an internship, and you’ll never know if you like research unless you try it. I know people who hate research, and that’s fine. I personally loved it. On the other hand, I interned at AMD for SWE, but it was boring (no offense to AMD, research is just in my DNA).
 
-# What Kind of Classes Should You Take?
+## What Kind of Classes Should You Take?
 
 I came to Berkeley without even daring to consider machine learning. I heard how competitive the field was and didn’t think I was good enough. I got a B+ in EECS 16A (intro to linear algebra & systems) in my first semester and thought AI was way out of reach.
 
 Then, in Fall 2022 (sophomore year), I took EECS 127 (Convex Optimization), an insanely math-heavy upper-div course. I grinded office hours every week, studied my ass off, and ended up loving it—so much that I later became a TA. That class gave me the confidence and passion to explore machine learning.
 
-The semester after, I took CS 189 (Machine Learning) and CS 182 (Deep Learning)—both brutal courses. But thanks to EECS 127, I had the math intuition to survive. I was lucky to enroll early (pre-ChatGPT hype), which is literally impossible now.
+The semester after, I took CS 189 (Machine Learning) and CS 182 (Deep Learning)—both brutal courses. But thanks to EECS 127, I had the math intuition to survive. I was lucky to be able to enroll (pre-ChatGPT hype), which is literally impossible for a sophmore now.
 
-The semester after, I started research at Sky Computing Lab and took CS 285 (Deep RL). Again, insanely lucky.
+The semester after (junior year), I started research at Sky Computing Lab and taking CS 285 (Deep RL). Again, insanely lucky.
 
 So, why do I talk about classes?
 
 Because you should take 1–2 upper-div ML classes before starting ML research.
 
-Reasons:
+**Reasons**:
 1. Easier to get into research.
 2. Makes research more enjoyable.
 3. Theoretical knowledge gives you strong intuitions.
 
-Recommended Classes:
+**Recommended Classes**:
 
 ✅ EECS 127 (Optimzation) – Take before ML research.
 
@@ -91,9 +93,9 @@ Recommended Classes:
 
 **General Advice**: First, laser-focus on taking ML-related classes and building fundamentals. Then, spend the rest of your undergrad laser-focused on research.
 
-# How to Get Into Research?
+## How to Get Into Research?
 
-Before the hows, you need to know who to look for.
+*Before the hows, you need to know who to look for.*
 
 The ideal research mentor is NOT a professor. They are 3rd or 4th-year PhD students whose advisor is an EECS professor.
 
@@ -111,7 +113,7 @@ URAP (Undergraduate Research Apprentice Program) is the most popular research op
 3. Competitive, GPA-heavy.
 4. Mixed experiences. Most of my friends had bad ones.
 
-Best Methods to Get Research:
+**Best Methods to Get Research**
 
 ✅ Method 1: Meet the PhD student in person, such as attending their talk (insanely high yield).
 
@@ -144,7 +146,7 @@ XXX
 
 ---
 
-# Advice for Students in Research
+## Advices to Students in Research
 *You gotta let it rip.  –––Evan Frick*
 
 (No, not that kind of rip—I'm talking about research, people.)
@@ -161,7 +163,7 @@ Research is, low-key, more important than your coursework. Yes, grades matter, b
 * Be social. Don’t shy away from in-person interactions. A quick chat in the hallway can spark new ideas or collaborations.
 
 
-**Voice your wants and ideas**. 
+**Voice your wants and ideas.**. 
 
 If you’re aiming for grad school and want publications, say so—loud and clear. Too many undergrads never mention they want to publish, then wonder why they’re stuck on projects that don’t lead to papers. It’s fine to do GitHub PRs or smaller tasks, but make sure you’re also working towards something publishable if that’s your goal. Own your ambition!
 
@@ -177,6 +179,10 @@ Not all advisors are created equal. Some truly want to mentor undergrads and wat
 **Drive Your Work.**
 
 This might be the single most important thing: You should be the one pushing your part of the research. A PhD student or professor shouldn’t have to remind you constantly to run experiments or collect data. Take the initiative, propose new directions, and show them you’re serious. Essentially, you’re the project’s engine.
+
+**My further opinions.** 
+
+A successful undergrad research career will take more than 20 hours a week of commitment. I spent around 40 hours on average on research throughout my Junior and Senior year, with some week exceed 60 hours. I don't really balance research with other things like coursework, social life, etc. I stayed in the lab many nights and over the weekend (whenever my friends check my location, it is always Sky Lab lol). I rather do research than do homework or go to parties. But you shouldn't force yourself to commit, if you are truly passionate about the field, you will naturally spent hours working. As for me, I am obsessed and I think about how to improve model training and evaluation all the time, walking on campus, right before I fall asleep, etc. But I truly enjoyed the process, and I don't regret it at all.
 
 # Master / PhD Applications
 
@@ -196,7 +202,7 @@ In short, a glowing letter from a big-name research professor is worth its weigh
 
 **Statement of Purpose & Personal Essays.**
 
-- **Statement of Purpose (SOP):** This is where you explain why you want to do research and how your background aligns with the program. If you want an example, check out my <a href="../assets/pdf/SOP.pdf"> PhD SOP </a>.
+- **Statement of Purpose (SOP):** This is where you explain why you want to do research and how your background aligns with the program. If you want an example, check out my <a href="../assets/pdf/SOP.pdf"> PhD SOP</a>.
 - **Personal Essays:** Usually more about who you are as a person—your motivations, experiences, and potential for success. Write honestly, but also show passion.
 
 **GPA.** Less important than you think.
@@ -204,15 +210,17 @@ In short, a glowing letter from a big-name research professor is worth its weigh
 
 If you’re applying to a **5th-year Master’s program**, here are the important things:
 
-**Is Your Advisor an EECS Professor?** 5th Year Master program is an EECS program, so if your research professor is an EECS professor then they can get you in easily. Otherwise, it is an uphill battle.
+Is Your Advisor an EECS Professor? 5th Year Master program is an EECS program, so if your research professor is an EECS professor then they can get you in easily. Otherwise, it is an uphill battle.
 
-**Does Your Advisor Want You?** If their letter of recommendation is tepid (or they don’t have time for you), that can sink your chances. A strong rec is everything here.
+Does Your Advisor Want You? If their letter of recommendation is tepid (or they don’t have time for you), that can sink your chances. A strong rec is everything here.
+
+**Storytime:** One of my friend who had a 3.5 GPA was admitted to the Berkeley's 5th Year Master program for robotics. He has significant research experience and a good connection with his research adviser, an senior EECS professor. *GPA is overrated lol.*
 
 ---
 
 **Important Notes**
 
-Does your professor actually care about the project you’re working on, or are you a side-quest in their research empire? The bigger the impact of your project, the more they will care about you. For example, Chatbot Arena has the highest priority for Ion, which is why I was to ride on its impact.
+Does your professor actually care about the project you’re working on, or are you a side-quest in their research empire? The bigger the impact of your project, the more they will care about you. For example, Chatbot Arena has the highest priority for Ion, which is why I was able to ride on its impact.
 
 Some labs are basically sweatshops for undergrads with zero mentorship or impact. If that’s you, consider switching advisors if possible.
 
@@ -220,22 +228,20 @@ Some professors prefer not to take their own undergrads for Master’s/PhD (they
 
 How many other undergrads in your lab are applying at the same time? Each professor can only take around 2-4 5th Year Master a year and a limit amount of PhD students whose number depends on their budget. The more PhD students that are graduating in the lab when you are applying to for PhD, the higher chances for you to get admitted.
 
-Are you close with the PhD students who might be reviewing your application? At most schools, including Berkeley, PhD and MS admission is a two round system. In the first round, PhD students in each group (e.g., MLSys, ML Theory) will be reviewing all the applicants to that field of interest. They will score you and this determines whether you make it to the next round, the professor round. If you pass the student round, your application will be placed in a pile and then professor will pick whichever application that they are interested for review. In some cases, if the professor really likes you, a professor has the ability to "fix" the admission and correct the "mistake" in the student round and pull your application into the second round. Yup!
-
+Are you close with the PhD students who might be reviewing your application? At most schools, including Berkeley, PhD and MS admission is a two rounds system. In the first round, PhD students in each group (e.g., MLSys, ML Theory) will be reviewing all the applicants to that field of interest. They will score you and this determines whether you make it to the next round, the professor round. If you pass the student round, your application will be placed in a pile and then professor will pick whichever application that they are interested for review. In some cases, if the professor really likes you, a professor has the ability to "fix" the admission and correct the "mistake" in the student round and pull your application into the second round. Yup!
 
 The professor’s network can open doors. They might drop a call or an email to colleagues at other institutions. In many cases, professors will admit PhDs that are recommended by professors who were once the professors' student. For example, the professor who admitted me into MIT were once a PhD student in the same lab led by Ion and two of his student from MIT later became professors in my lab today. The network matters!
 
 ---
 
-# Stresses in Research
+## Stress from Research
  
 I am still working on this section... TT
 
-# Wonderful People
+## Wonderful People
 
 I will be forever grateful for these people:
 
-Wei-Lin Chiang, Lianmin Zheng, Banghua Zhu, Anastasios Nikolas Angelopoulos, Lisa Dunlap, Joseph E. Gonzalez, Jiantao Jiao, Ion Stoica.
-
+[Wei-Lin Chiang](https://infwinston.github.io/), [Lianmin Zheng](https://lmzheng.net/), [Banghua Zhu](https://people.eecs.berkeley.edu/~banghua/), [Anastasios Nikolas Angelopoulos](https://people.eecs.berkeley.edu/~angelopoulos/), [Lisa Dunlap](https://www.lisabdunlap.com/), [Joseph E. Gonzalez](https://people.eecs.berkeley.edu/~jegonzal/), [Jiantao Jiao](https://people.eecs.berkeley.edu/~jiantao/), [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/).
 
 <!-- $$\text{success} = \min(\text{network}, \text{talent}, \text{hard work}) + \text{luck}$$ -->

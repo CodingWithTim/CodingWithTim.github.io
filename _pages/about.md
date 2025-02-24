@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: 
 
@@ -32,6 +32,7 @@ My research interest lies in the intersection of **Large Model Evaluation** and 
 
 I have been training a lot of reasoning models recently.
 
+Some of my work:
 - **LLM evaluations**
   - Crowdsource Evaluation: [Chatbot Arena](https://chat.lmsys.org/) (Core Contributor; Fun Fact: I built most popular leaderboard categories, Hard Prompt and Style Control!)
   - Automatic Benchmark: [Arena-Hard-Auto](https://github.com/lmarena/arena-hard-auto/tree/main) (Lead)
@@ -41,8 +42,6 @@ I have been training a lot of reasoning models recently.
   - Open Dataset: [LMSYS-Chat-1M](https://huggingface.co/datasets/lmsys/lmsys-chat-1m) (Core Contributor)
 - **Systems for training and serving large models**
   - [FastChat](https://github.com/lm-sys/FastChat) (Core Contributor)
-
-<a href="assets/pdf/SOP.pdf"> PhD SOP </a>
 
 ### Teaching / Other Experiences
 
