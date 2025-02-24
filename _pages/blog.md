@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /blogs/
-title: Blogs I wrote...
+title: blogs I wrote...
 # description: 
 nav: true
 nav_order: 4
@@ -11,8 +11,7 @@ nav_order: 4
 
 # A Hitchhiker’s Guide to Undergrad Research
 
-$$\text{success} = \min(\text{network}, \text{talent}, \text{hard work}) + \text{luck}$$
-
+*This guide is what I wish my past self—two years ago—had read before starting research. Hopefully you will find this helpful!*
 
 ## Introduction
 
@@ -27,8 +26,6 @@ During my undergraduate years, I have published eight papers, including first-au
 I was admitted to Berkeley, MIT, Princeton, CMU, and UW for PhD to continue pursuing research in model training and evaluations.
 
 I want to take this moment to express my deepest gratitude to my advisors, PostDocs, PhD mentors, friends, and family. Without their support, I wouldn’t have been able to accomplish any of this. In hindsight, I was incredibly lucky to meet the right people at the right time to work on the right things. So, I want to share the knowledge and lessons I’ve learned throughout my research journey, as well as insights from those around me. See a [list](#wonderful-people) of these wonderful people. 
-
-*This guide is what I wish my past self—two years ago—had read before starting research. Hopefully you will find this helpful!*
 
 ## Table of Contents
 1. [Should You Consider Research?](#should-you-consider-research)
@@ -238,4 +235,7 @@ I am still working on this section... TT
 
 I will be forever grateful for these people:
 
-Wei-Lin Chiang, Lianming Zheng, Banghua Zhu, Anastasios Nikolas Angelopoulos, Lisa Dunlap, Joseph E. Gonzalez, Jiantao Jiao, Ion Stoica.
+Wei-Lin Chiang, Lianmin Zheng, Banghua Zhu, Anastasios Nikolas Angelopoulos, Lisa Dunlap, Joseph E. Gonzalez, Jiantao Jiao, Ion Stoica.
+
+
+<!-- $$\text{success} = \min(\text{network}, \text{talent}, \text{hard work}) + \text{luck}$$ -->
