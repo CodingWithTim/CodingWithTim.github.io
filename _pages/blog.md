@@ -125,13 +125,13 @@ Personally, I only did method 1 and I had 100% rate of success (first time with 
 
 **Words of encouragement**: My research partner started research in the same semester which he applied to 5th Year Master (senior year fall semester). In the semesters before, he cold emailed over 20 PhD students to no avail despite having a 4.0 GPA. In his senior year, he was able to publish a top conference paper and accepted into BAIR's 5th Year Master. He said having completed CS189, EECS127, and EECS126 faciliated his research. Fast forward to today, he was also recently admitted to all the top PhD programs. Hence, don't be discouraged and it is never too late to give up!
 
-Here is a cold email template that has seen a lot of success:
+Here is a cold email template that has seen success. Remember to keep it concise and straight forward.
 
 ---
 
 Hi XXX,
 
-My name is XXX and I am an undergraduate computer science student here at Berkeley. I'm interested in <insert_what_this_phd_student_does>. I was really interested in your recent paper “<insert_paper_name>”. I'm ready to contribute 15+ hours a week to research as well as full time in the summer to learn from and contribute to your research work. In the future, I'm looking to continue research in a graduate school setting.
+My name is XXX and I am an undergraduate computer science student here at Berkeley. I'm interested in `insert_what_this_phd_student_does`. I was really interested in your recent paper `"insert_paper_name"`. I'm ready to contribute 15+ hours a week to research as well as full time in the summer to learn from and contribute to your research work. In the future, I'm looking to continue research in a graduate school setting.
 
 Last spring semester, I worked on <any_relevant_background_not_too_long>...
 
@@ -163,7 +163,7 @@ Research is, low-key, more important than your coursework. Yes, grades matter, b
 * Be social. Don’t shy away from in-person interactions. A quick chat in the hallway can spark new ideas or collaborations.
 
 
-**Voice your wants and ideas.**. 
+**Voice your wants and ideas.**
 
 If you’re aiming for grad school and want publications, say so—loud and clear. Too many undergrads never mention they want to publish, then wonder why they’re stuck on projects that don’t lead to papers. It’s fine to do GitHub PRs or smaller tasks, but make sure you’re also working towards something publishable if that’s your goal. Own your ambition!
 
@@ -184,7 +184,7 @@ This might be the single most important thing: You should be the one pushing you
 
 A successful undergrad research career will take more than 20 hours a week of commitment. I spent around 40 hours on average on research throughout my Junior and Senior year, with some week exceed 60 hours. I don't really balance research with other things like coursework, social life, etc. I stayed in the lab many nights and over the weekend (whenever my friends check my location, it is always Sky Lab lol). I rather do research than do homework or go to parties. But you shouldn't force yourself to commit, if you are truly passionate about the field, you will naturally spent hours working. As for me, I am obsessed and I think about how to improve model training and evaluation all the time, walking on campus, right before I fall asleep, etc. But I truly enjoyed the process, and I don't regret it at all.
 
-# Master / PhD Applications
+## Master / PhD Applications
 
 *It is not a holistic process by any means lol.*
 
