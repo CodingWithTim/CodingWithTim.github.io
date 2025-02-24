@@ -52,7 +52,7 @@ Most roles that involve actual ML research (i.e., working on novel ideas beyond 
 
 If you want to become a faculty member, do I even need to explain?
 
-If none of this applies to you, save yourself from years of misery and pain as a software engineer. Congrats! You are making the smartest decision.
+If none of this applies to you, save yourself from years of misery and become a software engineer. Congrats! You are making the smartest decision by doing so.
 
 General advice: Try everything at least once during undergrad. You’ll never know if you like SWE unless you do an internship, and you’ll never know if you like research unless you try it. I know people who hate research, and that’s fine. I personally loved it. On the other hand, I interned at AMD for SWE, but it was boring (no offense to AMD, research is just in my DNA).
 
@@ -83,7 +83,7 @@ Because you should take 1–2 upper-div ML classes before starting ML research.
 
 ✅ CS 182 (Deep NN) – Optional, but helpful.
 
-✅ EECS 126 (Probability) – Recommended, before CS 189. Great for building intuitions for ML.
+✅ EECS 126 (Probability Theory) – Recommended, before CS 189. Great for building intuitions.
 
 ✅ CS 285 (Deep RL) – If Sergey feels like teaching (once in a blue moon). Super fruitful class!
 
@@ -91,7 +91,7 @@ Because you should take 1–2 upper-div ML classes before starting ML research.
 
 ❌ CS 288 (NLP) – Mid class, better to self-learn.
 
-**General Advice**: First, laser-focus on taking ML-related classes and building fundamentals. Then, spend the rest of your undergrad laser-focused on research.
+**General Advice**: In general, I do not recommend starting research as a freshman or sophomore. First, laser-focus on taking ML-related classes and building your fundamental understanding of the theories. Then, spend the rest of your undergrad years laser-focused on research. 
 
 ## How to Get Into Research?
 
@@ -123,7 +123,7 @@ Any other method? Not worth your time.
 
 Personally, I only did method 1 and I had 100% rate of success (first time with a BAIR PhD student, second time with Chatbot Arena).
 
-**Words of encouragement**: A close friend of mine and also my research partner started research in the first semester of his senior year working with a 5th year PhD student under Professor Jiantao Jiao. Before that, he cold emailed over 20 PhD students. He published a top conference paper that semester and was accepted into BAIR 5th year master program subsequently. Granted, he took CS189, EECS 127, and EECS 126 before he started research. Don't be discouraged!
+**Words of encouragement**: My research partner started research in the same semester which he applied to 5th Year Master (senior year fall semester). In the semesters before, he cold emailed over 20 PhD students to no avail despite having a 4.0 GPA. In his senior year, he was able to publish a top conference paper and accepted into BAIR's 5th Year Master. He said having completed CS189, EECS127, and EECS126 faciliated his research. Fast forward to today, he was also recently admitted to all the top PhD programs. Hence, don't be discouraged and it is never too late to give up!
 
 Here is a cold email template that has seen a lot of success:
 
