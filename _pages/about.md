@@ -23,25 +23,29 @@ I am an undergraduate researcher at [Berkeley Sky Computing Lab](https://sky.cs.
 
 I am also a Research Engineer on the LLM post-training team at [Nexusflow](https://nexusflow.ai/), working with Professor [Jiantao Jiao](https://people.eecs.berkeley.edu/~jiantao/).
 
+I recently started working on reasoning models as a Student Researcher at Google.
+
 ### Education
 I am currently a senior at UC Berkeley studying Electrical Engineering and Computer Science (EECS).
 
 ### Research
 
-My research interest lies in the intersection of **Large Model Evaluation** and **Post-Training** with a focus on understanding and improving Large Model's general and domain-specific capabilities and reliability. I am super curious about principled approaches to identifying limitations in LLMs and leveraging these insights to improve them through innovative training methods.
-
-I have been training a lot of reasoning models recently.
+My research interest lies in the intersection of **Large Model Evaluation** and **Post-Training** with a focus on understanding and improving Large Model's general and domain-specific capabilities and reliability. I am super curious about principled approaches to identifying limitations in LLMs and leveraging these insights to overcome them through innovative training methods or data curation.
 
 Some of my work:
 - **LLM evaluations**
-  - Crowdsource Evaluation: [Chatbot Arena](https://chat.lmsys.org/) (Core Contributor; Fun Fact: I built most popular leaderboard categories, Hard Prompt and Style Control!)
+  - Crowdsource Evaluation: [Chatbot Arena](https://chat.lmsys.org/) (Core Contributor)
+      - Infra and Data Analytics.
+      - I built the categories: Hard Prompt, Style Control, Math, etc.
+      - PDFChat, Search Arena, User Leaderboard.
   - Automatic Benchmark: [Arena-Hard-Auto](https://github.com/lmarena/arena-hard-auto/tree/main) (Lead)
   - Reward Model Benchmark: [Preference Proxy Evaluator](https://github.com/lmarena/PPE) (Core Contributor)
+  - Prompt-to-Leaderboard: [P2L](https://arxiv.org/pdf/2502.14855) (Co-first Author)
 - **Post-training and datasets**
   - Open Model Trained: [Athene-70B](https://huggingface.co/Nexusflow/Athene-70B) (Co-Lead), [Athene-V2-Chat-72B](https://huggingface.co/Nexusflow/Athene-V2-Chat) (Co-Lead)
   - Open Dataset: [LMSYS-Chat-1M](https://huggingface.co/datasets/lmsys/lmsys-chat-1m) (Core Contributor)
 - **Systems for training and serving large models**
-  - [FastChat](https://github.com/lm-sys/FastChat) (Core Contributor)
+  - [FastChat](https://github.com/lm-sys/FastChat) (Contributor)
 
 ### Teaching / Other Experiences
 
