@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /blogs/
-title: Blogs I wrote...
+title: Blogs
 # description: 
 nav: true
 nav_order: 5
