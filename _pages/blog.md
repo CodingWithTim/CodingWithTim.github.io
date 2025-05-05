@@ -21,11 +21,11 @@ A little about myself... and why should you listen to my advice on anything rese
 
 *Disclaimer: I can only really speak for CS-related research, with a primary focus on Machine Learning and Artificial Intelligence. If that interests you, you should read this blog :)*
 
-I am a Berkeley EECS undergrad, Class of 2025. My research focuses on the intersection of large model evaluation and training to improve model capabilities and reliability. I’ve been a researcher at Berkeley Sky Computing Lab for two years, where I am part of the Chatbot Arena team advised by Professors Ion Stoica (founder of Databricks), Joseph E. Gonzalez, and Jiantao Jiao. I have also been a Research Engineer on the LLM alignment/post-training team at Nexusflow for over a year, where I was fortunate enough to have access to H100s and co-trained open-weight LLMs that surpassed ChatGPT and Claude.
+I am a Berkeley EECS undergrad, Class of 2025. My research focuses on the intersection of large model evaluation and training to improve model capabilities and reliability. I’ve been a researcher at Berkeley Sky Computing Lab for two years, where I am part of the Chatbot Arena team advised by Professors Ion Stoica, Joseph E. Gonzalez, and Jiantao Jiao. I have also been a Research Engineer on the LLM alignment/post-training team at Nexusflow for over a year, where I was fortunate enough to have access to H100s and co-trained open-weight LLMs that surpassed ChatGPT and Claude. I also spent a semester part-time at Google AI as a student researcher where I worked on reasoning models.
 
-During my undergraduate years, I have published eight papers, including first-author papers and conference papers at ICML, ICLR, and EMNLP, totaling over 700 citations on Google Scholar. I also published a paper with Google AI and served as an ICLR conference reviewer.
+During my undergraduate years, I have published eight papers, including first-author papers and conference papers at ICML, ICLR, and EMNLP, totaling over 900 citations on Google Scholar. I also co-published papers with Google AI and served as an ICLR conference reviewer.
 
-I was recently admitted to Berkeley, MIT, Princeton, CMU, and UW for PhD to continue pursuing research in model training and evaluations.
+I was recently admitted to Berkeley EECS, MIT CSAIL, Princeton NLP, CMU's CSD, and UW's NLP for PhD to continue pursuing research in machine learning. 
 
 I want to take this moment to express my deepest gratitude to my advisors, PostDocs, PhD mentors, friends, and family. Without their support, I wouldn’t have been able to accomplish any of this. In hindsight, I was incredibly lucky to meet the right people at the right time to work on the right things. So, I want to share the knowledge and lessons I’ve learned throughout my research journey, as well as insights from those around me. See a [list](#wonderful-people) of these wonderful people. 
 
