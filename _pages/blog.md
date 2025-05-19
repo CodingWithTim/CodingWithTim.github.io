@@ -21,11 +21,11 @@ A little about myself... and why should you listen to my advice on anything rese
 
 *Disclaimer: I can only really speak for CS-related research, with a primary focus on Machine Learning and Artificial Intelligence. If that interests you, you should read this blog :)*
 
-I am a Berkeley EECS undergrad, Class of 2025. My research focuses on the intersection of large model evaluation and training to improve model capabilities and reliability. I’ve been a researcher at Berkeley Sky Computing Lab for two years, where I am part of the Chatbot Arena team advised by Professors Ion Stoica, Joseph E. Gonzalez, and Jiantao Jiao. I have also been a Research Engineer on the LLM alignment/post-training team at Nexusflow for over a year, where I was fortunate enough to have access to H100s and co-trained open-weight LLMs that surpassed ChatGPT and Claude. I also spent a semester part-time at Google AI as a student researcher where I worked on reasoning models.
+I was a Berkeley EECS undergrad, Class of 2025. My undergraduate research focuses on the intersection of large model evaluation and training to improve model capabilities and reliability. I’ve been a researcher at Berkeley Sky Computing Lab for two years, where I am part of the Chatbot Arena team advised by Professors Ion Stoica, Joseph E. Gonzalez, and Jiantao Jiao. I have also been a Research Engineer on the LLM alignment/post-training team at Nexusflow for over a year, where I was fortunate enough to have access to H100s and co-trained open-weight LLMs that surpassed ChatGPT and Claude. I also spent a semester part-time at Google AI as a student researcher where I worked on reasoning models.
 
-During my undergraduate years, I have published eight papers, including first-author papers and conference papers at ICML, ICLR, and EMNLP, totaling over 900 citations on Google Scholar. I also co-published papers with Google AI and served as an ICLR conference reviewer.
+During my undergraduate years, I have published multiple papers, including first-author papers and conference papers at ICML, ICLR, and EMNLP, totaling over 1000 citations on Google Scholar. I also co-published papers with Google AI and served as an ICLR and ICML conference reviewer.
 
-I was recently admitted to Berkeley EECS, MIT CSAIL, Princeton NLP, CMU's CSD, and UW's NLP for PhD to continue pursuing research in machine learning. 
+I was admitted to Berkeley EECS, MIT CSAIL, Princeton NLP, CMU's CSD, and UW's NLP for PhD to continue pursuing machine learning research. However, I decided to defer my PhD to join xAI and its mission to build superintelligence. 
 
 I want to take this moment to express my deepest gratitude to my advisors, PostDocs, PhD mentors, friends, and family. Without their support, I wouldn’t have been able to accomplish any of this. In hindsight, I was incredibly lucky to meet the right people at the right time to work on the right things. So, I want to share the knowledge and lessons I’ve learned throughout my research journey, as well as insights from those around me. See a [list](#wonderful-people) of these wonderful people. 
 
@@ -44,17 +44,21 @@ Simply put, grad school applications require letters of recommendation (typicall
 
 If you want to work in a research role (aka tired of SWE), then the answer is yes. If your goal is to do research as a career (in industry or academia), then duh, you should do research. However, I cannot guarantee that you’ll never touch SWE tasks again—everything in moderation.
 
-If you like owning your work or deeply exploring novel concepts, research might be for you.
+If you enjoy owning your work or diving deep into unexplored ideas, and not afraid your efforts might turn up empty, research might be for you. Ask yourself: Do you like working on problems that don’t have clear answers, and defining the questions yourself? Or do you prefer well-defined tasks? Research is all about the former.
 
-If you want to work in Machine Learning, then the answer is probably yes.
+If you want to work on Machine Learning, specifically the research aspect more than engineering, then the answer is definitely yes.
 
-Most roles that involve actual ML research (i.e., working on novel ideas beyond wrapping GPT-4 in an API) require significant experience and/or at least a Master’s degree—sometimes a PhD. So, you know what that means (get into grad school → undergrad research). That being said, ML opportunities are on the rise, and there are some roles (mostly no novelty—no offense) that don’t require research experience.
+If you want to work on machine learning—specifically the research side, rather than just engineering—then yes, research is the right path. Most roles focused on genuine ML research (not just wrapping GPT-4 in an API) require significant experience and often at least a Master’s degree, sometimes a PhD. If you’re aiming for frontier labs like OpenAI, DeepMind, xAI, etc., top candidates are almost always PhDs or have 5–10 years of industry experience. That said, a PhD isn’t an absolute requirement; you just need to be as strong as an above-average 3rd or 4th-year PhD student at a top CS grad program. In other words, grad school and undergrad research are usually necessary stepping stones. Additionally, by preparing for and completing a successful PhD, you’re also making yourself a very strong candidate for top industry research roles.
 
-If you want to become a faculty member, do I even need to explain?
+That being said, ML opportunities are growing, and there are plenty of engineering-focused roles (like Machine Learning Engineer) that don’t require research experience.
 
-If none of this applies to you, save yourself from years of misery and become a software engineer. Congrats! You are making the smartest decision by doing so.
+If you want to become a professor, do I even need to explain? Sure, most professors don’t make as much as they could in industry (e.g., Senior Staff Research Scientist), but they gain something priceless:
+1. A lot of freedom (not tied to company profit or politics)
+2. Mentorship and help shape the next generation of researchers.
 
-General advice: Try everything at least once during undergrad. You’ll never know if you like SWE unless you do an internship, and you’ll never know if you like research unless you try it. I know people who hate research, and that’s fine. I personally loved it. On the other hand, I interned at AMD for SWE, but it was boring (no offense to AMD, research is just in my DNA).
+If none of this appeals to you, spare yourself years of pain and just become a software engineer. Otherwise, be ready for some real hardship—LOL.
+
+General advice: Try everything at least once during undergrad. You’ll never know if you like SWE unless you do an internship, and you’ll never know if you like research unless you try it. I know people who hate research, and that’s fine. I personally loved it. On the other hand, I interned at AMD for SWE, but it was boring (no offense, research is just in my DNA).
 
 ## What Kind of Classes Should You Take?
 
