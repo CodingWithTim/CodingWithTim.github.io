@@ -23,11 +23,11 @@ A little about myself... and why should you listen to my advice on anything rese
 
 I was a Berkeley EECS undergrad, Class of 2025. My undergraduate research focuses on the intersection of large model evaluation and training to improve model capabilities and reliability. I’ve been a researcher at Berkeley Sky Computing Lab for two years, where I am part of the Chatbot Arena team advised by Professors Ion Stoica, Joseph E. Gonzalez, and Jiantao Jiao. I have also been a Research Engineer on the LLM alignment/post-training team at Nexusflow for over a year, where I was fortunate enough to have access to H100s and co-trained open-weight LLMs that surpassed ChatGPT and Claude. I also spent a semester part-time at Google AI as a student researcher where I worked on reasoning models.
 
-During my undergraduate years, I have published multiple papers, including first-author papers and conference papers at ICML, ICLR, and EMNLP, totaling over 1000 citations on Google Scholar. I also co-published papers with Google AI and served as an ICLR and ICML conference reviewer.
+During my undergraduate years, I have published multiple international conference papers at ICML, ICLR, and EMNLP, totaling over 1000 citations on Google Scholar. I also co-published papers with Google AI and served as a reviewer for ICLR and ICML.
 
-I was admitted to Berkeley EECS, MIT CSAIL, Princeton NLP, CMU's CSD, and UW's NLP for PhD to continue pursuing machine learning research. However, I decided to defer my PhD to join xAI and its mission to build superintelligence. 
+I was admitted to Berkeley EECS, MIT CSAIL, Princeton NLP, CMU's CSD, and UW's NLP for PhD to continue pursuing machine learning research. However, I decided to defer my PhD to join Elon Musk's xAI as a Staff AI Researcher.
 
-I want to take this moment to express my deepest gratitude to my advisors, PostDocs, PhD mentors, friends, and family. Without their support, I wouldn’t have been able to accomplish any of this. In hindsight, I was incredibly lucky to meet the right people at the right time to work on the right things. So, I want to share the knowledge and lessons I’ve learned throughout my research journey, as well as insights from those around me. See a [list](#wonderful-people) of these wonderful people. 
+I want to take this moment to express my deepest gratitude to my advisors, PostDocs, PhD mentors, friends, and family. Without their support, I wouldn’t have been able to accomplish any of this. In hindsight, I was incredibly lucky to meet the right people at the right time to work on the right things. So, I want to share the knowledge and lessons I’ve learned throughout my research journey, as well as insights from those around me. See a [list](#wonderful-people) of these wonderful people.
 
 ## Table of Contents
 1. [Should You Consider Research?](#should-you-consider-research)
@@ -55,6 +55,8 @@ That being said, ML opportunities are growing, and there are plenty of engineeri
 If you want to become a professor, do I even need to explain? Sure, most professors don’t make as much as they could in industry (e.g., Senior Staff Research Scientist), but they gain something priceless:
 1. A lot of freedom (not tied to company profit or politics)
 2. Mentorship and help shape the next generation of researchers.
+
+Lastly, being good at doing research is honestly such an underrated skill that I think most students need to develop. Most students in STEM are trained to become engineers, only accustomed to work on well-defined tasks and being told what to do. Research develop skills that allow you to operate independently, identify and setup problems that no one knows the solution to, and solve them. This skill is indispensible in industry, especially in frontier labs. No one knows how to build AGI, it is a novel problem!
 
 If none of this appeals to you, spare yourself years of pain and just become a software engineer. Otherwise, be ready for some real hardship—LOL.
 
@@ -240,7 +242,17 @@ The professor’s network can open doors. They might drop a call or an email to 
 
 ## Stress from Research
  
-I am still working on this section... TT
+*Be water, my friend.  –––Bruce Lee*
+
+I will now recount one of the most stressful period of my life.
+
+
+
+## Further Readings
+
+Tim Dettemers, an Assistant Professor at CMU, wrote an incredible blog on how to select grad school. It is a must read for those are applying to PhD!
+
+John Schulman wrote a blog on how to do research. It has several very important idea. I recommend reading it.
 
 ## Wonderful People
 
