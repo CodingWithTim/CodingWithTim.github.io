@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Member of Technical Staff at xAI, currently on Science of RL. I worked on reasoning, post-training, and RL.
+I am a Member of Technical Staff at xAI, currently on the Science of RL team. I worked on reasoning, post-training, and RL.
 - Grok 4.1: Co-creator, led post-training RL training and recipe studies.
 - [Grok 4 Fast](https://x.ai/news/grok-4-fast): Co-creator, led post-training RL training and recipe studies, co-led distillation and evals.
 - [Grok 4](https://x.ai/news/grok-4): Core contributor, synthetic datasets, evals, tool use.
