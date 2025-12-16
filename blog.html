@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Tianle Li</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Ambient background -->
+    <div class="ambient-bg"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">TL</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">About</a>
+                <a href="blog.html" class="nav-link active">Blog</a>
+                <a href="assets/pdf/CV.pdf" class="nav-link" target="_blank">CV</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main blog-main">
+        <!-- Blog Header -->
+        <section class="blog-header">
+            <div class="section-content">
+                <h1 class="page-title">Blog</h1>
+                <p class="page-subtitle">Thoughts on research, AI, and academia</p>
+            </div>
+        </section>
+
+        <!-- Blog Posts List -->
+        <section class="blog-list">
+            <div class="section-content">
+                <a href="#hitchhikers-guide" class="blog-card">
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Research Guide</span>
+                        <h2 class="blog-card-title">A Hitchhiker's Guide to Undergrad Research</h2>
+                        <p class="blog-card-excerpt">What I wish my past self—two years ago—had read before starting research. A comprehensive guide covering everything from classes to PhD applications.</p>
+                        <span class="blog-read-more">Read article →</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Full Blog Post -->
+        <article class="blog-post" id="hitchhikers-guide">
+            <div class="section-content">
+                <header class="post-header">
+                    <h1 class="post-title">A Hitchhiker's Guide to Undergrad Research</h1>
+                    <p class="post-intro"><em>This guide is what I wish my past self—two years ago—had read before starting research. Hopefully you will find this helpful!</em></p>
+                </header>
+
+                <div class="post-content">
+                    <section class="post-section">
+                        <h2>Introduction</h2>
+                        <p>A little about myself... and why should you listen to my advice on anything research-related?</p>
+                        
+                        <p class="disclaimer"><em>Disclaimer: I can only really speak for CS-related research, with a primary focus on Machine Learning and Artificial Intelligence. If that interests you, you should read this blog :)</em></p>
+                        
+                        <p>I was a Berkeley EECS undergrad, Class of 2025. My undergraduate research focuses on the intersection of large model evaluation and training to improve model capabilities and reliability. I've been a researcher at Berkeley Sky Computing Lab for two years, where I am part of the Chatbot Arena team advised by Professors Ion Stoica, Joseph E. Gonzalez, and Jiantao Jiao. I have also been a Research Engineer on the LLM alignment/post-training team at Nexusflow for over a year, where I was fortunate enough to have access to H100s and co-trained open-weight LLMs that surpassed ChatGPT and Claude. I also spent a semester part-time at Google AI as a student researcher where I worked on reasoning models.</p>
+                        
+                        <p>During my undergraduate years, I have published multiple international conference papers at ICML, ICLR, and EMNLP, totaling over 1000 citations on Google Scholar. I also co-published papers with Google AI and served as a reviewer for ICLR and ICML.</p>
+                        
+                        <p>I was admitted to Berkeley EECS, MIT CSAIL, Princeton NLP, CMU's CSD, and UW's NLP for PhD to continue pursuing machine learning research. However, I decided to defer my PhD to join Elon Musk's xAI as a Staff AI Researcher.</p>
+                        
+                        <p>I want to take this moment to express my deepest gratitude to my advisors, PostDocs, PhD mentors, friends, and family. Without their support, I wouldn't have been able to accomplish any of this. In hindsight, I was incredibly lucky to meet the right people at the right time to work on the right things. So, I want to share the knowledge and lessons I've learned throughout my research journey, as well as insights from those around me.</p>
+                    </section>
+
+                    <nav class="post-toc">
+                        <h3>Table of Contents</h3>
+                        <ol>
+                            <li><a href="#should-you-consider-research">Should You Consider Research?</a></li>
+                            <li><a href="#what-kind-of-classes">What Kind of Classes to Take?</a></li>
+                            <li><a href="#how-to-get-into-research">How to Get Into Research?</a></li>
+                            <li><a href="#advices-to-students">Advice to Students in Research</a></li>
+                            <li><a href="#phd-applications">Master's / PhD Applications</a></li>
+                            <li><a href="#stress-from-research">Stress from Research</a></li>
+                        </ol>
+                    </nav>
+
+                    <section class="post-section" id="should-you-consider-research">
+                        <h2>Should You Consider Research?</h2>
+                        
+                        <p><strong>If you're interested in graduate school (MS or PhD), the answer is yes.</strong></p>
+                        
+                        <p>Simply put, grad school applications require letters of recommendation (typically three), and they are everything. A strong letter comes from a research professor who can speak to your research ability. Not your software engineering manager. Not your grandma. Period. GPA, technical experience, and extracurriculars are secondary to strong recommendations. More on this later.</p>
+                        
+                        <p><strong>If you want to work in a research role</strong> (aka tired of SWE), then the answer is yes. If your goal is to do research as a career (in industry or academia), then duh, you should do research. However, I cannot guarantee that you'll never touch SWE tasks again—everything in moderation.</p>
+                        
+                        <p><strong>If you enjoy owning your work or diving deep into unexplored ideas</strong>, and not afraid your efforts might turn up empty, research might be for you. Ask yourself: Do you like working on problems that don't have clear answers, and defining the questions yourself? Or do you prefer well-defined tasks? Research is all about the former.</p>
+                        
+                        <p><strong>If you want to work on Machine Learning</strong>, specifically the research aspect more than engineering, then the answer is definitely yes.</p>
+                        
+                        <p>Most roles focused on genuine ML research (not just wrapping GPT-4 in an API) require significant experience and often at least a Master's degree, sometimes a PhD. If you're aiming for frontier labs like OpenAI, DeepMind, xAI, etc., top candidates are almost always PhDs or have 5–10 years of industry experience. That said, a PhD isn't an absolute requirement; you just need to be as strong as an above-average 3rd or 4th-year PhD student at a top CS grad program. In other words, grad school and undergrad research are usually necessary stepping stones.</p>
+                        
+                        <p><strong>If you want to become a professor</strong>, do I even need to explain? Sure, most professors don't make as much as they could in industry (e.g., Senior Staff Research Scientist), but they gain something priceless:</p>
+                        <ol>
+                            <li>A lot of freedom (not tied to company profit or politics)</li>
+                            <li>Mentorship and help shape the next generation of researchers.</li>
+                        </ol>
+                        
+                        <p>Lastly, <strong>being good at doing research is an underrated skill</strong> that I think most students need to develop. Most students in STEM are trained to become engineers, only accustomed to work on well-defined tasks and being told what to do. Research develops skills that allow you to operate independently, identify and setup problems that no one knows the solution to, and solve them. This skill is indispensable in industry, especially in frontier labs. No one knows how to build AGI, it is a novel problem!</p>
+                        
+                        <p>If none of this appeals to you, spare yourself years of pain and just become a software engineer. Otherwise, be ready for some real hardship—LOL.</p>
+                        
+                        <p><strong>General advice:</strong> Try everything at least once during undergrad. You'll never know if you like SWE unless you do an internship, and you'll never know if you like research unless you try it. I know people who hate research, and that's fine. I personally loved it. On the other hand, I interned at AMD for SWE, but it was boring (no offense, research is just in my DNA).</p>
+                    </section>
+
+                    <section class="post-section" id="what-kind-of-classes">
+                        <h2>What Kind of Classes Should You Take?</h2>
+                        
+                        <p>I came to Berkeley without even daring to consider machine learning. I heard how competitive the field was and didn't think I was good enough. I got a B+ in EECS 16A (intro to linear algebra & systems) in my first semester and thought AI was way out of reach.</p>
+                        
+                        <p>Then, in Fall 2022 (sophomore year), I took EECS 127 (Convex Optimization), an insanely math-heavy upper-div course. I grinded office hours every week, studied my ass off, and ended up loving it—so much that I later became a TA. That class gave me the confidence and passion to explore machine learning.</p>
+                        
+                        <p>The semester after, I took CS 189 (Machine Learning) and CS 182 (Deep Learning)—both brutal courses. But thanks to EECS 127, I had the math intuition to survive. I was lucky to be able to enroll (pre-ChatGPT hype), which is literally impossible for a sophomore now.</p>
+                        
+                        <p>The semester after (junior year), I started research at Sky Computing Lab and taking CS 285 (Deep RL). Again, insanely lucky.</p>
+                        
+                        <p>So, why do I talk about classes? <strong>Because you should take 1–2 upper-div ML classes before starting ML research.</strong></p>
+                        
+                        <div class="reasons-box">
+                            <h4>Reasons:</h4>
+                            <ol>
+                                <li>Easier to get into research.</li>
+                                <li>Makes research more enjoyable.</li>
+                                <li>Theoretical knowledge gives you strong intuitions.</li>
+                            </ol>
+                        </div>
+                        
+                        <div class="classes-grid">
+                            <div class="class-item recommended">
+                                <span class="class-status">✅</span>
+                                <div class="class-info">
+                                    <strong>EECS 127 (Optimization)</strong>
+                                    <span>Take before ML research.</span>
+                                </div>
+                            </div>
+                            <div class="class-item recommended">
+                                <span class="class-status">✅</span>
+                                <div class="class-info">
+                                    <strong>CS 189 (Intro to ML)</strong>
+                                    <span>Take before ML research.</span>
+                                </div>
+                            </div>
+                            <div class="class-item recommended">
+                                <span class="class-status">✅</span>
+                                <div class="class-info">
+                                    <strong>CS 182 (Deep NN)</strong>
+                                    <span>Optional, but helpful.</span>
+                                </div>
+                            </div>
+                            <div class="class-item recommended">
+                                <span class="class-status">✅</span>
+                                <div class="class-info">
+                                    <strong>EECS 126 (Probability Theory)</strong>
+                                    <span>Recommended, before CS 189. Great for building intuitions.</span>
+                                </div>
+                            </div>
+                            <div class="class-item recommended">
+                                <span class="class-status">✅</span>
+                                <div class="class-info">
+                                    <strong>CS 285 (Deep RL)</strong>
+                                    <span>If Sergey feels like teaching (once in a blue moon). Super fruitful class!</span>
+                                </div>
+                            </div>
+                            <div class="class-item not-recommended">
+                                <span class="class-status">❌</span>
+                                <div class="class-info">
+                                    <strong>CS 188 (Intro to AI)</strong>
+                                    <span>Useless.</span>
+                                </div>
+                            </div>
+                            <div class="class-item not-recommended">
+                                <span class="class-status">❌</span>
+                                <div class="class-info">
+                                    <strong>CS 288 (NLP)</strong>
+                                    <span>Mid class, better to self-learn.</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p><strong>General Advice:</strong> In general, I do not recommend starting research as a freshman or sophomore. First, laser-focus on taking ML-related classes and building your fundamental understanding of the theories. Then, spend the rest of your undergrad years laser-focused on research.</p>
+                    </section>
+
+                    <section class="post-section" id="how-to-get-into-research">
+                        <h2>How to Get Into Research?</h2>
+                        
+                        <p><em>Before the hows, you need to know who to look for.</em></p>
+                        
+                        <p>The ideal research mentor is <strong>NOT a professor</strong>. They are 3rd or 4th-year PhD students whose advisor is an EECS professor.</p>
+                        
+                        <div class="reasons-box">
+                            <h4>Why?</h4>
+                            <ol>
+                                <li>Professors are too busy. They have PhD students to mentor. They most likely don't have time to invest in guiding you.</li>
+                                <li>PhD students are experienced and need co-authors. Working with them = high chance of co-authorship on strong papers.</li>
+                                <li>3rd/4th-year PhD students are research veterans. They know how to get into top conferences.</li>
+                                <li>Most PhD students can get you a strong letter of recommendation from their advisor, basically equivalent to working with the professor directly in that regard.</li>
+                            </ol>
+                        </div>
+                        
+                        <p>A 1st/2nd-year PhD student can also be good, just less optimal.</p>
+                        
+                        <p>URAP (Undergraduate Research Apprentice Program) is the most popular research opportunity at Berkeley, but here's the honest truth:</p>
+                        <ol>
+                            <li>Mostly interdisciplinary. (AI + Education, AI + Bats, etc.)</li>
+                            <li>Non-EECS advisors. (Weaker letters for CS/EECS grad school.)</li>
+                            <li>Competitive, GPA-heavy.</li>
+                            <li>Mixed experiences. Most of my friends had bad ones.</li>
+                        </ol>
+                        
+                        <div class="methods-box">
+                            <h4>Best Methods to Get Research</h4>
+                            <div class="method recommended">
+                                <span class="method-label">✅ Method 1:</span>
+                                <span>Meet the PhD student in person, such as attending their talk (insanely high yield).</span>
+                            </div>
+                            <div class="method recommended">
+                                <span class="method-label">✅ Method 2:</span>
+                                <span>Cold email PhD students (moderate yield).</span>
+                            </div>
+                            <p class="method-note">Any other method? Not worth your time.</p>
+                        </div>
+                        
+                        <p>Personally, I only did method 1 and I had 100% rate of success (first time with a BAIR PhD student, second time with Chatbot Arena).</p>
+                        
+                        <div class="encouragement-box">
+                            <h4>Words of Encouragement</h4>
+                            <p>My research partner started research in the same semester which he applied to 5th Year Master (senior year fall semester). In the semesters before, he cold emailed over 20 PhD students to no avail despite having a 4.0 GPA. In his senior year, he was able to publish a top conference paper and accepted into BAIR's 5th Year Master. He said having completed CS189, EECS127, and EECS126 facilitated his research. Fast forward to today, he was also recently admitted to all the top PhD programs. Hence, don't be discouraged and it is never too late to give up!</p>
+                        </div>
+                        
+                        <div class="email-template">
+                            <h4>Cold Email Template</h4>
+                            <div class="template-content">
+                                <p>Hi XXX,</p>
+                                <p>My name is XXX and I am an undergraduate computer science student here at Berkeley. I'm interested in <code>insert_what_this_phd_student_does</code>. I was really interested in your recent paper <code>"insert_paper_name"</code>. I'm ready to contribute 15+ hours a week to research as well as full time in the summer to learn from and contribute to your research work. In the future, I'm looking to continue research in a graduate school setting.</p>
+                                <p>Last spring semester, I worked on &lt;any_relevant_background_not_too_long&gt;...</p>
+                                <p>Attached below is my resume and transcript*.</p>
+                                <p>Thank you for your time and consideration,</p>
+                                <p>XXX</p>
+                                <p class="template-note">* transcript is optional.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="post-section" id="advices-to-students">
+                        <h2>Advice to Students in Research</h2>
+                        
+                        <blockquote class="quote">
+                            <p>"You gotta let it rip."</p>
+                            <cite>—Evan Frick</cite>
+                        </blockquote>
+                        
+                        <p>(No, not that kind of rip—I'm talking about research, people.)</p>
+                        
+                        <p><strong>Let it rip</strong> means go all in: dive into your research with enthusiasm and energy. Be fearless—read extra papers, run those experiments, and pitch wild ideas. The more you put into research, the more you'll get out of it.</p>
+                        
+                        <h3>Research is Priority</h3>
+                        <p>Research is, low-key, more important than your coursework. Yes, grades matter, but when it comes to impressing grad schools or industry, your research experience and output (publications, posters, code) can matter even more than your GPA. Of course, don't tank your classes—but remember to invest serious time in your projects.</p>
+                        
+                        <h3>Network and Be Present</h3>
+                        <ul>
+                            <li><strong>Talk to the PhD students.</strong> They know the ropes, and you can learn a lot from their war stories. Most of them are super friendly and fun to talk to!</li>
+                            <li><strong>Show up to group meetings.</strong> You'll stay in the loop and pick up on all sorts of new research directions.</li>
+                            <li><strong>Be social.</strong> Don't shy away from in-person interactions. A quick chat in the hallway can spark new ideas or collaborations.</li>
+                        </ul>
+                        
+                        <h3>Voice Your Wants and Ideas</h3>
+                        <p>If you're aiming for grad school and want publications, say so—loud and clear. Too many undergrads never mention they want to publish, then wonder why they're stuck on projects that don't lead to papers. It's fine to do GitHub PRs or smaller tasks, but make sure you're also working towards something publishable if that's your goal. Own your ambition!</p>
+                        
+                        <h3>Be Independent—but Communicate</h3>
+                        <ul>
+                            <li><strong>Don't expect babysitting.</strong> PhD students are busy. They'll give you guidance, but they can't hold your hand.</li>
+                            <li><strong>Keep them updated.</strong> A quick Slack message or short chat about your progress goes a long way.</li>
+                            <li><strong>Stay curious.</strong> Ask about what they're working on, or share interesting things you come across.</li>
+                        </ul>
+                        
+                        <h3>Work with Advisors Who Help You Grow</h3>
+                        <p>Not all advisors are created equal. Some truly want to mentor undergrads and watch you flourish. Others might look at you as free labor. Protect yourself—if you feel like you're just being dumped with grunt work and not learning anything, speak up or consider switching labs. Your growth and knowledge as a researcher should be the number one priority.</p>
+                        
+                        <h3>Drive Your Work</h3>
+                        <p>This might be the single most important thing: <strong>You should be the one pushing your part of the research.</strong> A PhD student or professor shouldn't have to remind you constantly to run experiments or collect data. Take the initiative, propose new directions, and show them you're serious. Essentially, you're the project's engine.</p>
+                        
+                        <h3>My Further Opinions</h3>
+                        <p>A successful undergrad research career will take more than 20 hours a week of commitment. I spent around 40 hours on average on research throughout my Junior and Senior year, with some weeks exceeding 60 hours. I don't really balance research with other things like coursework, social life, etc. I stayed in the lab many nights and over the weekend (whenever my friends check my location, it is always Sky Lab lol). I'd rather do research than do homework or go to parties. But you shouldn't force yourself to commit—if you are truly passionate about the field, you will naturally spend hours working. As for me, I am obsessed and I think about how to improve model training and evaluation all the time: walking on campus, right before I fall asleep, etc. But I truly enjoyed the process, and I don't regret it at all.</p>
+                    </section>
+
+                    <section class="post-section" id="phd-applications">
+                        <h2>Master's / PhD Applications</h2>
+                        
+                        <p><em>It is not a holistic process by any means lol.</em></p>
+                        
+                        <h3>Letters of Recommendation—They're Everything</h3>
+                        <ul>
+                            <li><strong>Not just a letter!</strong> Your professor will often rank you in the letter (e.g., "best student in 5 years" or "top 5%"). This ranking is the most important aspect of your application.</li>
+                            <li><strong>Who wrote the letter?</strong> Letters from your research professors are what matters. Industry letters tend to not matter. Rare exceptions exist (e.g., if you somehow got John Schulman to vouch for you), but for the rest of us, focus on professors who've supervised your research.</li>
+                        </ul>
+                        
+                        <p>In short, a glowing letter from a big-name research professor is worth its weight in gold. A competitive PhD applicant usually has 1 strong letter of recommendation from a research professor. If all 3 letters of recommendation are from research professors, then you are at the top of the game.</p>
+                        
+                        <h3>Publications & Research Experience</h3>
+                        <ul>
+                            <li>Right after letters of rec. If you have a paper or two, even if it's in a workshop or smaller conference, it proves you know how to conduct research and communicate findings.</li>
+                            <li>Your CV should highlight publications, projects, and any notable research-related experiences. If you have to choose between a stacked GPA and a real publication, the publication often wins.</li>
+                        </ul>
+                        
+                        <h3>Statement of Purpose & Personal Essays</h3>
+                        <ul>
+                            <li><strong>Statement of Purpose (SOP):</strong> This is where you explain why you want to do research and how your background aligns with the program. If you want an example, check out my <a href="assets/pdf/SOP.pdf" target="_blank">PhD SOP</a>.</li>
+                            <li><strong>Personal Essays:</strong> Usually more about who you are as a person—your motivations, experiences, and potential for success. Write honestly, but also show passion.</li>
+                        </ul>
+                        
+                        <h3>GPA—Less Important Than You Think</h3>
+                        <p><strong>Around 3.7?</strong> Great, you're good. Your letters of recommendation and research experiences speak far louder than GPA once you cross a certain GPA threshold: typically 3.5. For reference, my undergrad GPA is 3.72 and I was admitted into more PhD programs than most people with a 4.0.</p>
+                        
+                        <div class="highlight-box">
+                            <h4>For 5th-Year Master's Programs:</h4>
+                            <ul>
+                                <li><strong>Is Your Advisor an EECS Professor?</strong> 5th Year Master program is an EECS program, so if your research professor is an EECS professor then they can get you in easily. Otherwise, it is an uphill battle.</li>
+                                <li><strong>Does Your Advisor Want You?</strong> If their letter of recommendation is tepid (or they don't have time for you), that can sink your chances. A strong rec is everything here.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="story-box">
+                            <h4>Storytime</h4>
+                            <p>One of my friends who had a 3.5 GPA was admitted to Berkeley's 5th Year Master program for robotics. He has significant research experience and a good connection with his research adviser, a senior EECS professor. <em>GPA is overrated lol.</em></p>
+                        </div>
+                        
+                        <h3>Important Notes</h3>
+                        <ul>
+                            <li>Does your professor actually care about the project you're working on, or are you a side-quest in their research empire? The bigger the impact of your project, the more they will care about you. For example, Chatbot Arena has the highest priority for Ion, which is why I was able to ride on its impact.</li>
+                            <li>Some labs are basically sweatshops for undergrads with zero mentorship or impact. If that's you, consider switching advisors if possible.</li>
+                            <li>Some professors prefer not to take their own undergrads for Master's/PhD (they call it "academic inbreeding"). Others love to keep homegrown talent. It is good to know which side your professor is on.</li>
+                            <li>How many other undergrads in your lab are applying at the same time? Each professor can only take around 2-4 5th Year Master a year and a limited number of PhD students whose number depends on their budget. The more PhD students that are graduating in the lab when you are applying for PhD, the higher chances for you to get admitted.</li>
+                            <li>Are you close with the PhD students who might be reviewing your application? At most schools, including Berkeley, PhD and MS admission is a two-round system. In the first round, PhD students in each group will be reviewing all the applicants. They will score you and this determines whether you make it to the next round, the professor round.</li>
+                            <li>The professor's network can open doors. They might drop a call or an email to colleagues at other institutions. The network matters!</li>
+                        </ul>
+                    </section>
+
+                    <section class="post-section" id="stress-from-research">
+                        <h2>Stress from Research</h2>
+                        
+                        <blockquote class="quote">
+                            <p>"Be water, my friend."</p>
+                            <cite>—Bruce Lee</cite>
+                        </blockquote>
+                        
+                        <p><em>I will now recount one of the most stressful periods of my life...</em></p>
+                        
+                        <p class="coming-soon">[More content coming soon]</p>
+                    </section>
+
+                    <section class="post-section">
+                        <h2>Wonderful People</h2>
+                        <p>I will be forever grateful for these people:</p>
+                        <div class="people-list">
+                            <a href="https://infwinston.github.io/" target="_blank">Wei-Lin Chiang</a>,
+                            <a href="https://lmzheng.net/" target="_blank">Lianmin Zheng</a>,
+                            <a href="https://people.eecs.berkeley.edu/~banghua/" target="_blank">Banghua Zhu</a>,
+                            <a href="https://people.eecs.berkeley.edu/~angelopoulos/" target="_blank">Anastasios Nikolas Angelopoulos</a>,
+                            <a href="https://www.lisabdunlap.com/" target="_blank">Lisa Dunlap</a>,
+                            <a href="https://people.eecs.berkeley.edu/~jegonzal/" target="_blank">Joseph E. Gonzalez</a>,
+                            <a href="https://people.eecs.berkeley.edu/~jiantao/" target="_blank">Jiantao Jiao</a>,
+                            <a href="https://people.eecs.berkeley.edu/~istoica/" target="_blank">Ion Stoica</a>.
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025 Tianle Li</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
