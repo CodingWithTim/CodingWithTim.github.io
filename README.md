@@ -10,7 +10,7 @@ Simply open `index.html` in your browser, or use a local server:
 
 ```bash
 # Using Python
-python -m http.server 8000
+python3 -m http.server 8000
 
 # Using Node.js (npx)
 npx serve
