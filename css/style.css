@@ -81,9 +81,24 @@ strong, b {
 }
 
 /* ============================================
-   Background — Blueprint Grid
-   Two-level grid: major structural beams +
-   minor conduit spacing — The City's bones.
+   BLAME! Image Background
+   ============================================ */
+.blame-bg {
+    position: fixed;
+    inset: 0;
+    z-index: -3;
+    pointer-events: none;
+    background-image: url('../assets/images/bg.png');
+    background-size: cover;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    /* Darken and desaturate so content stays readable */
+    filter: brightness(0.22) saturate(0.6);
+}
+
+/* ============================================
+   Background — Blueprint Grid (faint overlay)
+   Reduced opacity — SVG provides the structure
    ============================================ */
 body::before {
     content: '';
@@ -101,6 +116,7 @@ body::before {
     background-size:
         192px 192px, 192px 192px,
         48px 48px,   48px 48px;
+    opacity: 0.15;
 }
 
 /* Scan lines — CRT terminal overlay */
@@ -128,9 +144,10 @@ body::after {
     z-index: -1;
     pointer-events: none;
     background:
-        radial-gradient(ellipse 70% 50% at 50% 0%, rgba(156, 14, 14, 0.05) 0%, transparent 65%),
-        radial-gradient(ellipse 40% 30% at 100% 100%, rgba(122, 88, 0, 0.03) 0%, transparent 55%),
-        radial-gradient(ellipse 30% 20% at 0% 60%, rgba(20, 20, 50, 0.4) 0%, transparent 50%);
+        /* Center darkening vignette — helps text panels stand out from image */
+        radial-gradient(ellipse 120% 100% at 50% 50%, transparent 30%, rgba(2, 2, 10, 0.55) 100%),
+        radial-gradient(ellipse 70% 50% at 50% 0%, rgba(156, 14, 14, 0.04) 0%, transparent 65%),
+        radial-gradient(ellipse 40% 30% at 100% 100%, rgba(122, 88, 0, 0.02) 0%, transparent 55%);
 }
 
 /* ============================================
@@ -786,12 +803,11 @@ section {
     font-size: clamp(5rem, 14vw, 9rem);
     letter-spacing: -0.03em;
     line-height: 1;
-    color: var(--text-dim);
+    color: rgba(100, 108, 130, 0.5);
     pointer-events: none;
     user-select: none;
     z-index: 0;
-    /* Make it feel etched/stenciled */
-    -webkit-text-stroke: 1px rgba(30, 30, 50, 0.3);
+    -webkit-text-stroke: 1px rgba(80, 90, 120, 0.3);
 }
 
 .about-text,
@@ -873,14 +889,14 @@ section {
     font-size: 0.58rem;
     letter-spacing: 0.24em;
     text-transform: uppercase;
-    color: var(--text-secondary);
+    color: var(--text-primary);
     margin-bottom: 0.8rem;
 }
 
 .contributions-title::before {
     content: '// ';
-    color: var(--red);
-    opacity: 0.5;
+    color: var(--red-hi);
+    opacity: 0.8;
 }
 
 .contributions-list {
