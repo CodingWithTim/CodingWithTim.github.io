@@ -27,6 +27,11 @@ const CONTRIBUTIONS = [
         description: "Co-creator, only person running large-scale expert merging."
     },
     {
+        name: "Grok 4.1",
+        url: "https://x.ai/news/grok-4-1",
+        description: "Co-creator, led post-training RL training and recipe studies."
+    },
+    {
         name: "Grok 4.1 Fast",
         url: "https://x.ai/news/grok-4-1-fast",
         description: "Co-creator, led post-training RL training and recipe studies."

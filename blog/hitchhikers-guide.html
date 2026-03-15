@@ -21,21 +21,28 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- Ambient background -->
+    <!-- Atmospheric layers -->
     <div class="ambient-bg"></div>
+    <div class="grain-overlay" id="grain-overlay"></div>
+    <div class="structure-left"></div>
+    <div class="structure-right"></div>
 
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
             <a href="../index.html" class="nav-logo">TL</a>
             <div class="nav-links">
-                <a href="../index.html" class="nav-link">About</a>
-                <a href="../blog.html" class="nav-link active">Blog</a>
+                <a href="../index.html" class="nav-link">Profile</a>
+                <a href="../blog.html" class="nav-link active">Archive</a>
                 <a href="../assets/pdf/CV.pdf" class="nav-link" target="_blank">CV</a>
+            </div>
+            <div class="nav-status">
+                <span class="status-dot"></span>
+                Online
             </div>
         </div>
     </nav>
@@ -374,6 +381,7 @@
     <footer class="footer">
         <div class="footer-content">
             <p class="footer-text">&copy; 2026 Tianle Li</p>
+            <span class="footer-jp" aria-hidden="true">接続中</span>
         </div>
     </footer>
 

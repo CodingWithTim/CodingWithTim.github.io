@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | Tianle Li</title>
+    <title>Archive | Tianle Li</title>
     <meta name="description" content="Blog posts by Tianle Li on research, AI, and academia.">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Blog | Tianle Li">
+    <meta property="og:title" content="Archive | Tianle Li">
     <meta property="og:description" content="Thoughts on research, AI, and academia.">
     <meta property="og:image" content="assets/images/head_shot.jpg">
     <meta property="og:url" content="https://codingwithtim.github.io/blog.html">
@@ -15,63 +15,70 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Blog | Tianle Li">
+    <meta name="twitter:title" content="Archive | Tianle Li">
     <meta name="twitter:description" content="Thoughts on research, AI, and academia.">
     <meta name="twitter:image" content="assets/images/head_shot.jpg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Ambient background -->
+    <!-- Atmospheric layers -->
     <div class="ambient-bg"></div>
+    <div class="grain-overlay" id="grain-overlay"></div>
+    <div class="structure-left"></div>
+    <div class="structure-right"></div>
+    <div class="data-stream" id="data-stream"></div>
 
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
             <a href="index.html" class="nav-logo">TL</a>
             <div class="nav-links">
-                <a href="index.html" class="nav-link">About</a>
-                <a href="blog.html" class="nav-link active">Blog</a>
+                <a href="index.html" class="nav-link">Profile</a>
+                <a href="blog.html" class="nav-link active">Archive</a>
                 <a href="assets/pdf/CV.pdf" class="nav-link" target="_blank">CV</a>
+            </div>
+            <div class="nav-status">
+                <span class="status-dot"></span>
+                Online
             </div>
         </div>
     </nav>
 
-    <!-- Main Content -->
     <main class="main blog-main">
+
         <!-- Blog Header -->
         <section class="blog-header">
-            <div class="section-content">
-                <h1 class="page-title">Blog</h1>
-                <p class="page-subtitle">Thoughts on research, AI, and academia</p>
-            </div>
+            <div class="section-label">Transmission Log</div>
+            <h1 class="page-title">Archive</h1>
+            <p class="page-subtitle">Thoughts on research, AI, and academia</p>
         </section>
 
         <!-- Blog Posts List -->
-        <section class="blog-list">
-            <div class="section-content">
-                <a href="blog/hitchhikers-guide.html" class="blog-card">
-                    <div class="blog-card-content">
-                        <span class="blog-tag">Research Guide</span>
-                        <h2 class="blog-card-title">A Hitchhiker's Guide to Undergrad Research</h2>
-                        <p class="blog-card-excerpt">What I wish my past self—two years ago—had read before starting research. A comprehensive guide covering everything from classes to PhD applications.</p>
-                        <span class="blog-read-more">Read article →</span>
-                    </div>
-                </a>
-            </div>
+        <section class="blog-list section-reveal">
+            <a href="blog/hitchhikers-guide.html" class="blog-card">
+                <div class="corner-tr"></div>
+                <div class="corner-bl"></div>
+                <span class="blog-tag">Research Guide</span>
+                <h2 class="blog-card-title">A Hitchhiker's Guide to Undergrad Research</h2>
+                <p class="blog-card-excerpt">What I wish my past self—two years ago—had read before starting research. A comprehensive guide covering everything from classes to PhD applications.</p>
+                <span class="blog-read-more">Read transmission →</span>
+            </a>
         </section>
+
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
             <p class="footer-text">&copy; 2026 Tianle Li</p>
+            <span class="footer-jp" aria-hidden="true">接続中</span>
         </div>
     </footer>
 
+    <script src="js/data.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
