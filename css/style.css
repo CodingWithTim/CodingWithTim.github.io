@@ -80,21 +80,8 @@ strong, b {
     font-weight: 700;
 }
 
-/* ============================================
-   BLAME! Image Background
-   ============================================ */
-.blame-bg {
-    position: fixed;
-    inset: 0;
-    z-index: -3;
-    pointer-events: none;
-    background-image: url('../assets/images/bg.png');
-    background-size: cover;
-    background-position: center 40%;
-    background-repeat: no-repeat;
-    /* Darken and desaturate so content stays readable */
-    filter: brightness(0.30) saturate(0.65);
-}
+/* .blame-bg unused */
+.blame-bg { display: none; }
 
 /* ============================================
    Background — Blueprint Grid (faint overlay)
@@ -116,7 +103,7 @@ body::before {
     background-size:
         192px 192px, 192px 192px,
         48px 48px,   48px 48px;
-    opacity: 0.15;
+    opacity: 0.45;
 }
 
 /* Scan lines — CRT terminal overlay */
@@ -144,10 +131,10 @@ body::after {
     z-index: -1;
     pointer-events: none;
     background:
-        /* Center darkening vignette — helps text panels stand out from image */
-        radial-gradient(ellipse 120% 100% at 50% 50%, transparent 30%, rgba(2, 2, 10, 0.55) 100%),
-        radial-gradient(ellipse 70% 50% at 50% 0%, rgba(156, 14, 14, 0.04) 0%, transparent 65%),
-        radial-gradient(ellipse 40% 30% at 100% 100%, rgba(122, 88, 0, 0.02) 0%, transparent 55%);
+        /* Faint red bleed from top — the only warmth in the void */
+        radial-gradient(ellipse 60% 40% at 50% 0%, rgba(180, 16, 16, 0.06) 0%, transparent 70%),
+        /* Edge darkening */
+        radial-gradient(ellipse 140% 100% at 50% 50%, transparent 40%, rgba(0, 0, 8, 0.6) 100%);
 }
 
 /* ============================================
@@ -236,7 +223,7 @@ body::after {
 .data-stream-inner {
     font-family: var(--font);
     font-size: 0.48rem;
-    color: rgba(180, 16, 16, 0.30);
+    color: rgba(200, 30, 30, 0.70);
     letter-spacing: 0.05em;
     line-height: 1.5;
     white-space: pre;
@@ -886,10 +873,10 @@ section {
 }
 
 .contributions-title {
-    font-size: 0.58rem;
-    letter-spacing: 0.24em;
+    font-size: 0.78rem;
+    letter-spacing: 0.20em;
     text-transform: uppercase;
-    color: var(--text-primary);
+    color: var(--text-bright);
     margin-bottom: 0.8rem;
 }
 
