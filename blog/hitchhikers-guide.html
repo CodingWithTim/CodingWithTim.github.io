@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Hitchhiker's Guide to Undergrad Research | Tianle Li</title>
     <meta name="description" content="What I wish my past self had read before starting research. A comprehensive guide covering everything from classes to PhD applications.">
+    <meta name="theme-color" content="#f3f0e9">
 
     <!-- Open Graph -->
     <meta property="og:title" content="A Hitchhiker's Guide to Undergrad Research | Tianle Li">
@@ -19,40 +20,32 @@
     <meta name="twitter:description" content="What I wish my past self had read before starting research. A comprehensive guide covering everything from classes to PhD applications.">
     <meta name="twitter:image" content="../assets/images/head_shot.jpg">
 
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- Atmospheric layers -->
-    <div class="ambient-bg"></div>
-    <div class="grain-overlay" id="grain-overlay"></div>
-    <div class="structure-left"></div>
-    <div class="structure-right"></div>
+    <a class="skip-link" href="#content">Skip to content</a>
 
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="../index.html" class="nav-logo">TL</a>
-            <div class="nav-links">
-                <a href="../index.html" class="nav-link">Profile</a>
-                <a href="../blog.html" class="nav-link active">Archive</a>
-                <a href="../assets/pdf/CV.pdf" class="nav-link" target="_blank">CV</a>
-            </div>
-            <div class="nav-status">
-                <span class="status-dot"></span>
-                Online
-            </div>
+    <header class="site-header">
+        <div class="shell header-inner">
+            <a class="wordmark" href="../index.html" aria-label="Tianle Li, home">Tianle Li</a>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="../index.html#work">Work</a>
+                <a href="../index.html#about">About</a>
+                <a class="active" href="../blog.html">Notes</a>
+                <a href="../assets/pdf/CV.pdf" target="_blank" rel="noopener">CV</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <!-- Main Content -->
-    <main class="main blog-main">
-        <!-- Full Blog Post -->
+    <main class="blog-main" id="content">
         <article class="blog-post" id="hitchhikers-guide">
             <div class="section-content">
                 <header class="post-header">
+                    <p class="post-kicker">Research guide</p>
                     <h1 class="post-title">A Hitchhiker's Guide to Undergrad Research</h1>
                     <p class="post-intro"><em>This guide is what I wish my past self—two years ago—had read before starting research. Hopefully you will find this helpful!</em></p>
                 </header>
@@ -377,11 +370,10 @@
         </article>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <p class="footer-text">&copy; 2026 Tianle Li</p>
-            <span class="footer-jp" aria-hidden="true">接続中</span>
+    <footer class="site-footer">
+        <div class="shell footer-inner">
+            <p>© <span data-current-year>2026</span> Tianle Li</p>
+            <a href="../blog.html">All notes</a>
         </div>
     </footer>
 

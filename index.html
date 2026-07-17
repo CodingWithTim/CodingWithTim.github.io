@@ -4,228 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tianle Li | AI Researcher</title>
-    <meta name="description" content="Tianle Li is a Member of Technical Staff at xAI, working on the Science of RL team. Previously an EECS undergraduate at UC Berkeley and builder of LMArena.">
+    <meta name="description" content="Tianle Li is a Member of Technical Staff at Thinking Machines Lab, leading the Auto Research team and working on reinforcement learning and post-training.">
+    <meta name="theme-color" content="#f3f0e9">
 
-    <!-- Open Graph -->
     <meta property="og:title" content="Tianle Li | AI Researcher">
-    <meta property="og:description" content="Member of Technical Staff at xAI, working on the Science of RL team. Previously an EECS undergraduate at UC Berkeley and builder of LMArena.">
+    <meta property="og:description" content="Member of Technical Staff at Thinking Machines Lab, leading Auto Research and working on reinforcement learning and post-training.">
     <meta property="og:image" content="assets/images/head_shot.jpg">
     <meta property="og:url" content="https://codingwithtim.github.io/">
     <meta property="og:type" content="website">
 
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Tianle Li | AI Researcher">
-    <meta name="twitter:description" content="Member of Technical Staff at xAI, working on the Science of RL team. Previously an EECS undergraduate at UC Berkeley and builder of LMArena.">
+    <meta name="twitter:description" content="Member of Technical Staff at Thinking Machines Lab, leading Auto Research and working on reinforcement learning and post-training.">
     <meta name="twitter:image" content="assets/images/head_shot.jpg">
 
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- BLAME! megastructure image background -->
-    <div class="blame-bg" aria-hidden="true"></div>
+    <a class="skip-link" href="#content">Skip to content</a>
 
-    <!-- Atmospheric layers -->
-    <div class="ambient-bg"></div>
-    <div class="grain-overlay" id="grain-overlay"></div>
-    <div class="structure-left"></div>
-    <div class="structure-right"></div>
-    <div class="data-stream" id="data-stream"></div>
-
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">Tim</a>
-            <div class="nav-links">
-                <a href="index.html" class="nav-link active">Profile</a>
-                <a href="blog.html" class="nav-link">Archive</a>
-                <a href="assets/pdf/CV.pdf" class="nav-link" target="_blank">CV</a>
-            </div>
-            <div class="nav-status">
-                <span class="status-dot"></span>
-                Online
-            </div>
+    <header class="site-header">
+        <div class="shell header-inner">
+            <a class="wordmark" href="index.html" aria-label="Tianle Li, home">Tianle Li</a>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="blog.html">Notes</a>
+                <a href="assets/pdf/CV.pdf" target="_blank" rel="noopener">CV</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <main class="main">
+    <main id="content">
+        <section class="hero shell reveal">
+            <div class="portrait-art" aria-label="Portrait of Tianle Li with abstract shapes">
+                <span class="art-shape art-shape-one" aria-hidden="true"></span>
+                <span class="art-shape art-shape-two" aria-hidden="true"></span>
+                <figure class="portrait-wrap">
+                    <img class="portrait" src="assets/images/head_shot.jpg" alt="Portrait of Tianle Li">
+                </figure>
+                <span class="art-shape art-shape-three" aria-hidden="true"></span>
+            </div>
 
-        <!-- ═══════════════════════════════════════
-             Hero — Personnel Terminal Access Panel
-             AKIRA: psychic rings + speed lines + stamp
-             Eva:   sync bar + reticle
-             ═══════════════════════════════════════ -->
-        <section class="hero">
-            <div class="panel hero-panel">
-                <div class="corner-tr"></div>
-                <div class="corner-bl"></div>
-
-                <!-- AKIRA: Psychic expansion rings (Tetsuo's power) -->
-                <div class="psychic-rings" aria-hidden="true">
-                    <div class="psychic-ring"></div>
-                    <div class="psychic-ring"></div>
-                    <div class="psychic-ring"></div>
-                </div>
-
-                <!-- AKIRA: Radial speed lines from burst origin -->
-                <div class="speed-lines" aria-hidden="true"></div>
-
-                <!-- AKIRA: Government classification stamp -->
-                <div class="gov-stamp" aria-hidden="true">Restricted</div>
-
-                <div class="hero-inner">
-                    <!-- Eva: Targeting reticle around profile -->
-                    <div class="hero-image-wrapper">
-                        <img src="assets/images/head_shot.jpg" alt="Tianle Li" class="hero-image">
-                        <div class="reticle-ring reticle-ring-1"></div>
-                        <div class="reticle-ring reticle-ring-2"></div>
-                        <div class="reticle-line-h"></div>
-                        <div class="reticle-line-v"></div>
-                    </div>
-
-                    <div class="hero-identity">
-                        <div class="hero-tag">Designation</div>
-                        <h1 class="hero-name" data-text="Tianle Li">Tianle Li</h1>
-                        <div class="hero-role"><span>MTS</span> // xAI // <span>RL, Reasoning</span></div>
-                        <div class="hero-email">firstlast@berkeley.edu</div>
-                        <div class="hero-links" id="social-links">
-                            <!-- Rendered by JS -->
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Eva: Sync ratio bar — animated on load -->
-                <div class="sync-meter">
-                    <span class="sync-label">Sync Ratio</span>
-                    <div class="sync-track"><div class="sync-fill"></div></div>
-                    <span class="sync-val">0%</span>
-                </div>
-
-                <div class="hero-readout">
-                    <span class="readout-item">Babysitting Training</span>
-                    <span class="readout-item">Reinforcement Learning</span>
-                    <span class="readout-item">Sector: SF</span>
-                    <span class="readout-item">Status: Nominal</span>
+            <div class="hero-copy">
+                <h1>I work on how large models <em>learn</em> and <em>reason.</em></h1>
+                <p class="hero-intro">I’m Tianle, a Member of Technical Staff at <a href="https://thinkingmachines.ai/" target="_blank" rel="noopener">Thinking Machines Lab</a>, where I lead the Auto Research team. I work on automating ML research, reinforcement learning, and post-training.</p>
+                <div class="hero-actions">
+                    <a class="text-link primary-link" href="#work">Selected work <span aria-hidden="true">↓</span></a>
+                    <a class="text-link" href="mailto:firstlast@berkeley.edu">Email me <span aria-hidden="true">↗</span></a>
                 </div>
             </div>
         </section>
 
-        <!-- Structural divider — floor transition -->
-        <div class="struct-divider">
-            <div class="struct-divider-marker"></div>
-        </div>
+        <section class="glance shell reveal" aria-label="Profile at a glance">
+            <div class="glance-item">
+                <strong>Thinking Machines</strong>
+                <span>Current</span>
+            </div>
+            <div class="glance-item">
+                <strong>Auto Research</strong>
+                <span>Leading</span>
+            </div>
+            <div class="glance-item">
+                <strong>RL · Post-training</strong>
+                <span>Focus</span>
+            </div>
+            <div class="glance-item">
+                <strong>San Francisco</strong>
+                <span>Based</span>
+            </div>
+        </section>
 
-        <!-- ═══════════════════════════════════════
-             Section 01 — Personnel File
-             BLAME!: level coordinates + circuit trace
-             ═══════════════════════════════════════ -->
-        <section class="about section-reveal">
-            <span class="sector-num" aria-hidden="true">01</span>
-            <!-- BLAME!: Megastructure spatial address -->
-            <span class="level-coords" aria-hidden="true">LVL.3512 · SEC.A-07 · NODE.41</span>
-            <div class="section-label">Personnel File</div>
-            <!-- BLAME!: Active circuit trace — current running through conduit -->
-            <div class="circuit-trace" aria-hidden="true"></div>
-            <div class="about-text">
-                <p>I am a Member of Technical Staff at <strong>xAI</strong>, currently on the <strong>Science of RL</strong> team. I also work on post-training and reasoning.</p>
+        <section class="section shell reveal" id="work">
+            <div class="section-heading">
+                <p class="section-number">01</p>
+                <div>
+                    <p class="eyebrow">Selected work</p>
+                    <h2>Recent contributions</h2>
+                </div>
+            </div>
 
-                <div class="contributions">
-                    <div class="contributions-title">Contributions since May 2025</div>
-                    <ul class="contributions-list" id="contributions-list">
-                        <!-- Rendered by JS -->
-                    </ul>
+            <div class="work-list" id="contributions-list" aria-label="Selected model contributions">
+                <!-- Rendered from js/data.js -->
+            </div>
+        </section>
+
+        <section class="section shell reveal" id="about">
+            <div class="section-heading">
+                <p class="section-number">02</p>
+                <div>
+                    <p class="eyebrow">About</p>
+                    <h2>A short history</h2>
+                </div>
+            </div>
+
+            <div class="prose-grid">
+                <p class="prose-lead">I’m interested in closing the loop between how models are trained and how ML research itself gets done.</p>
+                <div class="prose-body">
+                    <p>At Thinking Machines Lab, I was the model captain for <a href="https://thinkingmachines.ai/news/introducing-inkling/" target="_blank" rel="noopener">Inkling</a> and started the reasoning team. I now lead Auto Research, working to automate ML research.</p>
+                    <p>Previously, I worked on the Grok 4 family at xAI. Before that, I studied EECS at <a href="https://www.berkeley.edu/" target="_blank" rel="noopener">UC Berkeley</a>, where I was advised by <a href="https://people.eecs.berkeley.edu/~istoica/" target="_blank" rel="noopener">Ion Stoica</a> and helped build <a href="https://lmarena.ai/" target="_blank" rel="noopener">LMArena</a>.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Structural divider -->
-        <div class="struct-divider">
-            <div class="struct-divider-marker"></div>
-        </div>
-
-        <!-- ═══════════════════════════════════════
-             Section 02 — Record
-             BLAME!: level coordinates + circuit trace
-             ═══════════════════════════════════════ -->
-        <section class="background section-reveal">
-            <span class="sector-num" aria-hidden="true">02</span>
-            <!-- BLAME!: Megastructure spatial address -->
-            <span class="level-coords" aria-hidden="true">LVL.3512 · SEC.B-14 · NODE.18</span>
-            <div class="section-label">Record</div>
-            <!-- BLAME!: Active circuit trace -->
-            <div class="circuit-trace" aria-hidden="true"></div>
-            <div class="about-text">
-                <p>Previously, I was an EECS undergraduate at <strong>UC Berkeley</strong> (2021–2025), where I was fortunate to be advised by <a href="https://people.eecs.berkeley.edu/~istoica/" target="_blank">Ion Stoica</a> and built <a href="https://lmarena.ai/" target="_blank">LMArena</a>.</p>
-
-                <p>During my undergrad, I also spent a year full-time at <strong>Nexusflow</strong> (acquired by Nvidia) as part of the LLM post-training team. Additionally, I briefly interned as a student researcher at <strong>Google AI Research</strong>, where I was working on reasoning.</p>
-            </div>
-        </section>
-
-        <!-- Structural divider -->
-        <div class="struct-divider">
-            <div class="struct-divider-marker"></div>
-        </div>
-
-        <!-- ═══════════════════════════════════════
-             Section 03 — Research Missions
-             Eva:    AT Field hex overlay
-             BLAME!: level coordinates + circuit trace
-             ═══════════════════════════════════════ -->
-        <section class="interests section-reveal">
-            <span class="sector-num" aria-hidden="true">03</span>
-
-            <!-- Eva: AT Field — hexagonal barrier geometry -->
-            <svg class="at-field-svg" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice"
-                 xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <defs>
-                    <!-- Pointy-top hex, circumradius 18, correct tiling pattern -->
-                    <!-- Tile: width=31.2, height=54 -->
-                    <pattern id="at-hex" x="0" y="0" width="31.2" height="54"
-                             patternUnits="userSpaceOnUse">
-                        <polygon points="15.6,1 31.2,10 31.2,28 15.6,37 0,28 0,10"
-                                 fill="none" stroke="rgba(130,100,8,0.16)" stroke-width="0.9"/>
-                        <polygon points="0,28 15.6,37 15.6,55 0,64 -15.6,55 -15.6,37"
-                                 fill="none" stroke="rgba(130,100,8,0.16)" stroke-width="0.9"/>
-                        <polygon points="31.2,28 46.8,37 46.8,55 31.2,64 15.6,55 15.6,37"
-                                 fill="none" stroke="rgba(130,100,8,0.16)" stroke-width="0.9"/>
-                    </pattern>
-                </defs>
-                <rect width="100%" height="100%" fill="url(#at-hex)"/>
-            </svg>
-
-            <!-- BLAME!: Megastructure spatial address -->
-            <span class="level-coords" aria-hidden="true">LVL.3512 · SEC.C-02 · NODE.97</span>
-            <div class="section-label">Research Missions</div>
-            <!-- BLAME!: Active circuit trace -->
-            <div class="circuit-trace" aria-hidden="true"></div>
-            <div class="about-text">
-                <p>I am very interested in fundamental problems in training large models and solving superintelligence.</p>
-
-                <div class="research-questions">
-                    <div class="questions-title">Open problems</div>
-                    <ol class="questions-list">
-                        <li>Can we get more than 1-bit of information per rollout in RL?</li>
-                        <li>Can we skip mid-training? Can a model learn on the fly?</li>
-                    </ol>
+        <section class="section shell reveal" id="questions">
+            <div class="section-heading">
+                <p class="section-number">03</p>
+                <div>
+                    <p class="eyebrow">On my mind</p>
+                    <h2>Open questions</h2>
                 </div>
             </div>
+
+            <ol class="question-list">
+                <li>
+                    <span class="question-index">A</span>
+                    <p>Can we get more than one bit of information per rollout in reinforcement learning?</p>
+                </li>
+                <li>
+                    <span class="question-index">B</span>
+                    <p>Can we skip mid-training? Can a model learn on the fly?</p>
+                </li>
+            </ol>
         </section>
 
+        <section class="section shell notes-section reveal">
+            <div class="section-heading">
+                <p class="section-number">04</p>
+                <div>
+                    <p class="eyebrow">Writing</p>
+                    <h2>Notes from the field</h2>
+                </div>
+            </div>
+
+            <a class="featured-note" href="blog/hitchhikers-guide.html">
+                <div>
+                    <p class="note-meta">Research guide</p>
+                    <h3>A Hitchhiker’s Guide to Undergrad Research</h3>
+                    <p>What I wish I had read before starting research—from finding mentors to navigating PhD applications.</p>
+                </div>
+                <span class="note-arrow" aria-hidden="true">↗</span>
+            </a>
+        </section>
+
+        <section class="contact shell reveal">
+            <p class="eyebrow">Elsewhere</p>
+            <h2>Find me online.</h2>
+            <div class="social-links" id="social-links">
+                <!-- Rendered from js/data.js -->
+            </div>
+        </section>
     </main>
 
-    <!-- Eva: SEELE monolith + BLAME! footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <p class="footer-text">&copy; 2026 Tianle Li</p>
-            <!-- Eva: SEELE identification block -->
-            <div class="seele-block" aria-hidden="true">
-                <span class="seele-line">SEELE 01</span>
-                <span class="seele-line seele-id">Sound Only</span>
-            </div>
-            <span class="footer-jp" aria-hidden="true">接続中</span>
+    <footer class="site-footer">
+        <div class="shell footer-inner">
+            <p>© <span data-current-year>2026</span> Tianle Li</p>
+            <a href="#content">Back to top ↑</a>
         </div>
     </footer>
 

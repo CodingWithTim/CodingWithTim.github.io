@@ -6,9 +6,9 @@
 const SITE_META = {
     name: "Tianle Li",
     title: "Tianle Li | AI Researcher",
-    description: "Tianle Li is a Member of Technical Staff at xAI, working on the Science of RL team. Previously an EECS undergraduate at UC Berkeley and builder of LMArena.",
+    description: "Tianle Li is a Member of Technical Staff at Thinking Machines Lab, leading the Auto Research team and working on reinforcement learning and post-training.",
     email: "firstlast@berkeley.edu",
-    role: "Member of Technical Staff @ xAI",
+    role: "Member of Technical Staff @ Thinking Machines Lab",
     image: "assets/images/head_shot.jpg",
     url: "https://codingwithtim.github.io/"
 };
@@ -21,6 +21,11 @@ const SOCIAL_LINKS = [
 ];
 
 const CONTRIBUTIONS = [
+    {
+        name: "Inkling",
+        url: "https://thinkingmachines.ai/news/introducing-inkling/",
+        description: "Model captain; started the reasoning team."
+    },
     {
         name: "Grok 4.2",
         url: null,
@@ -47,4 +52,3 @@ const CONTRIBUTIONS = [
         description: "Core contributor, synthetic datasets, evals, tool use."
     }
 ];
-

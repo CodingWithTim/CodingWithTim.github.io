@@ -3,82 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archive | Tianle Li</title>
-    <meta name="description" content="Blog posts by Tianle Li on research, AI, and academia.">
+    <title>Notes | Tianle Li</title>
+    <meta name="description" content="Writing by Tianle Li on research, AI, and academia.">
+    <meta name="theme-color" content="#f3f0e9">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Archive | Tianle Li">
-    <meta property="og:description" content="Thoughts on research, AI, and academia.">
+    <meta property="og:title" content="Notes | Tianle Li">
+    <meta property="og:description" content="Writing on research, AI, and academia.">
     <meta property="og:image" content="assets/images/head_shot.jpg">
     <meta property="og:url" content="https://codingwithtim.github.io/blog.html">
     <meta property="og:type" content="website">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Archive | Tianle Li">
-    <meta name="twitter:description" content="Thoughts on research, AI, and academia.">
-    <meta name="twitter:image" content="assets/images/head_shot.jpg">
-
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Atmospheric layers -->
-    <div class="ambient-bg"></div>
-    <div class="grain-overlay" id="grain-overlay"></div>
-    <div class="structure-left"></div>
-    <div class="structure-right"></div>
-    <div class="data-stream" id="data-stream"></div>
+    <a class="skip-link" href="#content">Skip to content</a>
 
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">TL</a>
-            <div class="nav-links">
-                <a href="index.html" class="nav-link">Profile</a>
-                <a href="blog.html" class="nav-link active">Archive</a>
-                <a href="assets/pdf/CV.pdf" class="nav-link" target="_blank">CV</a>
-            </div>
-            <div class="nav-status">
-                <span class="status-dot"></span>
-                Online
-            </div>
+    <header class="site-header">
+        <div class="shell header-inner">
+            <a class="wordmark" href="index.html" aria-label="Tianle Li, home">Tianle Li</a>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="index.html#work">Work</a>
+                <a href="index.html#about">About</a>
+                <a class="active" href="blog.html" aria-current="page">Notes</a>
+                <a href="assets/pdf/CV.pdf" target="_blank" rel="noopener">CV</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <main class="main blog-main">
+    <main class="notes-main shell reveal" id="content">
+        <header class="notes-header">
+            <p class="eyebrow">Notes</p>
+            <h1>Thinking in public.</h1>
+            <p>Long-form writing on research, AI, and life.</p>
+        </header>
 
-        <!-- Blog Header -->
-        <section class="blog-header">
-            <div class="section-label">Transmission Log</div>
-            <h1 class="page-title">Archive</h1>
-            <p class="page-subtitle">Thoughts on research, AI, and academia</p>
-        </section>
-
-        <!-- Blog Posts List -->
-        <section class="blog-list section-reveal">
-            <a href="blog/hitchhikers-guide.html" class="blog-card">
-                <div class="corner-tr"></div>
-                <div class="corner-bl"></div>
-                <span class="blog-tag">Research Guide</span>
-                <h2 class="blog-card-title">A Hitchhiker's Guide to Undergrad Research</h2>
-                <p class="blog-card-excerpt">What I wish my past self—two years ago—had read before starting research. A comprehensive guide covering everything from classes to PhD applications.</p>
-                <span class="blog-read-more">Read transmission →</span>
+        <section class="archive-list" aria-label="Published notes">
+            <a class="archive-item" href="blog/hitchhikers-guide.html">
+                <div class="archive-index">01</div>
+                <div class="archive-copy">
+                    <p class="note-meta">Research guide</p>
+                    <h2>A Hitchhiker’s Guide to Undergrad Research</h2>
+                    <p>Classes, mentors, research habits, and applying to graduate school—what I wish I knew when I started.</p>
+                </div>
+                <span class="note-arrow" aria-hidden="true">↗</span>
             </a>
         </section>
-
     </main>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <p class="footer-text">&copy; 2026 Tianle Li</p>
-            <span class="footer-jp" aria-hidden="true">接続中</span>
+    <footer class="site-footer">
+        <div class="shell footer-inner">
+            <p>© <span data-current-year>2026</span> Tianle Li</p>
+            <a href="index.html">Home</a>
         </div>
     </footer>
 
-    <script src="js/data.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
