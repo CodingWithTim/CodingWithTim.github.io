@@ -22,6 +22,11 @@ const SOCIAL_LINKS = [
 
 const CONTRIBUTIONS = [
     {
+        name: "Inkling-Small",
+        url: "https://thinkingmachines.ai/news/inkling-small/",
+        description: "Model captain; ran large-scale joint RL."
+    },
+    {
         name: "Inkling",
         url: "https://thinkingmachines.ai/news/introducing-inkling/",
         description: "Model captain; started the reasoning team."
