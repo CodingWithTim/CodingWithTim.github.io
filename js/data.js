@@ -6,7 +6,7 @@
 const SITE_META = {
     name: "Tianle Li",
     title: "Tianle Li | AI Researcher",
-    description: "Tianle Li is a Member of Technical Staff at Thinking Machines Lab, leading the Auto Research team and working on reinforcement learning and post-training.",
+    description: "Tianle Li is a Member of Technical Staff at Thinking Machines Lab and model release DRI for Inkling and Inkling-Small.",
     email: "firstlast@berkeley.edu",
     role: "Member of Technical Staff @ Thinking Machines Lab",
     image: "assets/images/head_shot.jpg",
@@ -24,32 +24,32 @@ const CONTRIBUTIONS = [
     {
         name: "Inkling-Small",
         url: "https://thinkingmachines.ai/news/inkling-small/",
-        description: "Model captain; ran large-scale joint RL."
+        description: "Model release DRI, led post-training integration, ran agent RL bigrun."
     },
     {
         name: "Inkling",
         url: "https://thinkingmachines.ai/news/introducing-inkling/",
-        description: "Model captain; started the reasoning team."
+        description: "Model release DRI, led post-training model integration."
     },
     {
         name: "Grok 4.2",
         url: null,
-        description: "Co-creator, only person running large-scale expert merging."
+        description: "Co-creator, led post-training model integration (on very little sleep)."
     },
     {
         name: "Grok 4.1",
         url: "https://x.ai/news/grok-4-1",
-        description: "Co-creator, led post-training RL training and recipe studies."
+        description: "Co-creator, post-training RL mainline and recipe studies."
     },
     {
         name: "Grok 4.1 Fast",
         url: "https://x.ai/news/grok-4-1-fast",
-        description: "Co-creator, led post-training RL training and recipe studies."
+        description: "Co-creator, post-training RL mainline and recipe studies."
     },
     {
         name: "Grok 4 Fast",
         url: "https://x.ai/news/grok-4-fast",
-        description: "Co-creator, led post-training RL training and recipe studies, co-led distillation and evals."
+        description: "Co-creator, post-training RL mainline and recipe studies, co-led distillation and evals."
     },
     {
         name: "Grok 4",
