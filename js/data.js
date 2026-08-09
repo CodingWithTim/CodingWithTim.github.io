@@ -49,7 +49,7 @@ const CONTRIBUTIONS = [
     {
         name: "Grok 4 Fast",
         url: "https://x.ai/news/grok-4-fast",
-        description: "Co-creator, led post-training RL mainline and recipe studies, co-led distillation and evals."
+        description: "Co-creator, led rebuild of post-training RL stack and recipes from scratch; co-led distillation and evals."
     },
     {
         name: "Grok 4",
