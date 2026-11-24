@@ -29,7 +29,7 @@ const CONTRIBUTIONS = [
     {
         name: "Inkling 2 Small",
         url: "https://thinkingmachines.ai/news/inkling-2-small/",
-        description: "Coding agent team lead"
+        description: "Coding agent team lead."
     },
     {
         name: "Inkling-Small",
